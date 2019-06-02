@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.page-boarder {
+
+    margin: 3%;
+    border: 6px solid #EEEEEE;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    -webkit-transition: border 5000ms ease-out;
+    -moz-transition: border 5000ms ease-out;
+    -o-transition: border 5000ms ease-out;
+}
+
+.page-boarder:hover {
+    border: 6px solid #7C0001;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    /*width of your image*/
+    height: 375px;
+    /*height of your image*/
+    padding-top: 3%;
+
+
+}
+
+.HGBC-logo {
+    display: flex;
+    width: 50%;
+    /*width of your image*/
+    height: 100%;
+    background-image: url(../imgs/hgbc_logo_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+body {}
+
+.menu-nav-bar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    height: 80px;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    background-image: linear-gradient(260deg, #A61D30 0%, #DEDEDE 100%);
+    padding-bottom: 10px;
+    top: 50%;
+
+}
+
+.main-menu-nav-bar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 2%;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: normal;
+
+
+}
+
+.menu-nav-bar li {
+    text-align: center;
+    margin: 15px auto;
+    position: relative;
+
+
+}
+
+.menu-nav-bar-toggle {
+    position: relative;
+    top: 50%;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    display: none;
+
+}
+
+
+
+.nav-links:hover {
+    color: rgba(200, 200, 200, 1);
+    text-decoration: none;
+    font-weight: 900;
+
+
+}
+
+
+
+
+.main-content hr {
+    border: none;
+    height: 5px;
+    background-color: #EEEEEE;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    -webkit-transition: 5000ms ease-out;
+    -moz-transition: 5000ms ease-out;
+    -o-transition: 5000ms ease-out;
+
+}
+
+.page-boarder:hover .main-content hr {
+    background-color: #7C0001;
+
+}
+
+
+
+.main-content h3 {
+    font-family: 'Lato', sans-serif;
+    color: rgba(100, 100, 100, 0.8);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.main-content h1 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+
+    color: rgba(124, 10, 10, 0.8);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.events-slide {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.slideshow-div h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+
+}
+
+.slideshow-div p {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+.carousel-caption {
+    background-color: rgba(100, 100, 100, 0.5);
+
+}
